@@ -24,8 +24,8 @@
         <div>
             <label for="Race">Race:</label>
             <input type="text" id="Race" name="Race" placeholder="Don't leave empty">
-            <label for="Eyecolor">Eye Color:</label>
-            <input type="text" id="Eyecolor" name="Eyecolor" placeholder="e.g blue">
+            <label for="Proffesion">Proffesion:</label>
+            <input type="text" id="Proffesion" name="Proffesion" placeholder="Job">
         </div>
         <div>
             <label for="Height">Height:</label>
@@ -45,6 +45,36 @@
                 <option value="blonde">Blonde</option>
                 <option value="red">Red</option>
             </select>
-
+            <label for="Eyecolor">Select Eye color:</label>
+            <select name="Eyecolor" id="Eyecolor">
+                <option value="blue">Blue</option>
+                <option value="brown">Brown</option>
+                <option value="green">Green</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Select Dominant Hand:</legend>
+                <div>
+                  <input type="radio" id="Right" name="Right" value="Right" checked />
+                  <label for="Right">Right</label>
+                </div>
+                <div>
+                  <input type="radio" id="Left" name="Left" value="Left" />
+                  <label for="Left">Left</label>
+                </div>
+                <div>
+                  <input type="radio" id="Both" name="Both" value="Both" />
+                  <label for="Both">Both</label>
+                </div>
+                <div>
+                    <input type="radio" id="None" name="None" value="None" />
+                    <label for="None">None</label>
+                  </div>
+              </fieldset>
+        </div>
+        <div>
+            <button type="button">Submit survey</button>
         </div>
     </form>
+</body>
