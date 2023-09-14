@@ -1,0 +1,17 @@
+body {
+    background-color: darkgreen;
+}
+
+#first {
+    color: orange;
+    font-style: italic;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 780px) {
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
