@@ -44,3 +44,20 @@ body{
     border-top: 0;
     border-bottom: 256px solid blueviolet;
 }
+
+#starpart1{
+    height: 0px;
+    width: 0px;
+    border: 200px solid transparent;
+    border-top: 0;
+    border-bottom: 400px solid brown;
+}
+
+#starpart2{
+    height: 0px;
+    width: 0px;
+    border: 200px solid transparent;
+    border-top: 0;
+    border-bottom: 400px solid brown;
+    transform: rotate(180deg);
+}
