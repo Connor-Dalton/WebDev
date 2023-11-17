@@ -1,0 +1,15 @@
+#color {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+#thebox {
+    height: 12px;
+}
+#warning {
+    opacity: 0%;
+    color: black;
+}
+#thief {
+    color: black;
+}
