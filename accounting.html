@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="accounting.css">
+    </head>
+    <body>
+        <div class="centeralign">
+            <h1>Simple Budgeter</h1>
+        </div>
+        <main>
+            <div id="salarybox" class="centeralign">
+                <p>First enter your monthly salary</p>
+                <input type="number" id="salary" placeholder="Amount per month">
+            </div>
+            <div id="expensebox1">
+                <p class="centeralign">Now enter your monthly expenses
+                    for each of the categories. Put a zero if there are 
+                    no expenses.
+                </p>
+            </div>
+            <div id="expensebox2" class="centeralign">
+                <p>Food & Drink:</p>
+                <input type="number" id="food" class="tinytext" placeholder="Amount Spent">
+                <p>Housing:</p>
+                <input type="number" id="house" class="tinytext" placeholder="Amount Spent">
+            </div>
+            <div id="expensebox3" class="centeralign">
+                <p>Transport:</p>
+                <input type="number" id="transport" class="tinytext" placeholder="Amount Spent">
+                <p>School:</p>
+                <input type="number" id="school" class="tinytext" placeholder="Amount Spent">
+            </div>
+            <div id="expensebox4" class="centeralign">
+                <p>Entertainment:</p>
+                <input type="number" id="fun" class="tinytext" placeholder="Amount Spent">
+                <p>Other:</p>
+                <input type="number" id="other" class="tinytext" placeholder="Amount Spent">
+            </div>
+            <div id="expensebox5" class="centeralign">
+                <h3 id="results"></h3>
+                <button onclick="calcExpenses()">Calculate!</button>
+            </div>
+            <div id="tiplist">
+                <h3 class="centeralign">Don't like the results?
+                    <ul>
+                        <li>Acknowledge what is important to your life,
+                            get rid of what's not important
+                        </li>
+                        <li>Make a plan for the future</li>
+                        <li>Leave money for savings</li>
+                        <li>Pay any debt you might have</li>
+                    </ul>
+                </h3>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <script src="accounting.js"></script>
+    </footer>
+</html>
