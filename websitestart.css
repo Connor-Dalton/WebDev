@@ -1,0 +1,72 @@
+body {
+    background-color: lightsalmon;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+#titlestart{
+    text-align: center;
+    font-size: 50px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.aboutme {
+    text-align: center;
+    font-size: 30px;
+}
+
+#wariobox{
+    background-color: blueviolet;
+    border: solid 4px yellow;
+    grid-row: 4/5;
+    grid-column: 1/1;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#katamaribox {
+    background-color: red;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    animation: rainbow 2s infinite ;
+    border: solid 4px gray
+}
+
+.boxlink {
+    text-align: center;
+    padding-top: 100px;
+    color: ;
+}
+
+#startfooter {
+    background-color: black;
+    grid-row: 6/7;
+    grid-column: 1/4;
+}
+
+@keyframes rainbow{
+    0% {
+        background-color: red;}
+    12.5% {
+        background-color: orangered;}
+    25% {
+        background-color: orange;}
+    37.5% {
+        background-color: yellow;}
+    50% {
+        background-color: yellowgreen;}
+    62.5% {
+        background-color: lime;}
+    75% {
+        background-color: aqua;}
+    87.5% {
+        background-color: blue;}
+    100% {
+        background-color: purple;}    
+}
+
+@media  screen and (min-width: 400px) {
+    
+}
