@@ -37,7 +37,7 @@ body {
 .boxlink {
     text-align: center;
     padding-top: 100px;
-    color: ;
+    color: black;
 }
 
 #startfooter {
@@ -67,6 +67,22 @@ body {
         background-color: purple;}    
 }
 
-@media  screen and (min-width: 400px) {
-    
+@media  screen and (min-width: 1200px) {
+
+    .boxlink {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #wariobox {
+        width: 400px;
+        height: 400px;
+    }
+
+    #katamaribox {
+        width: 400px;
+        height: 400px;
+    }
 }
